@@ -97,7 +97,7 @@ cp .env.example .env
 Edit `.env` and add your OpenAI API key:
 
 ```
-OPENAI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
 ```
 
 ## Usage
@@ -105,7 +105,7 @@ OPENAI_API_KEY=your_api_key_here
 1. Start the Streamlit application:
 
 ```bash
-un streamlit run app.pyuv r
+uv run streamlit run app.py
 # or if uv venv is activated or not in used
 streamlit run app.py 
 python -m streamlit run app.py
