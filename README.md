@@ -59,6 +59,10 @@ This version has some the architectural improvements added, such as the **Batchi
 
 - Python 3.10 or higher
 - Gemini API key, you can modify to use Openai
+- onnx graphics run time libraries
+```bash
+sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 libgomp1
+```
 
 ### Setup
 
@@ -101,7 +105,7 @@ OPENAI_API_KEY=your_api_key_here
 1. Start the Streamlit application:
 
 ```bash
-uv run streamlit run app.py
+un streamlit run app.pyuv r
 # or if uv venv is activated or not in used
 streamlit run app.py 
 python -m streamlit run app.py
