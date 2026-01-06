@@ -1,0 +1,22 @@
+# --- Core Application ---
+python-dotenv>=1.0.0
+pandas>=2.0.0
+streamlit>=1.32.0
+streamlit-extras>=0.7.0
+pypdf>=5.0.0
+
+# --- LangChain Ecosystem ---
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# --- Gemini (Google) ---
+langchain-google-genai>=4.1.2
+
+# --- Document Parsing (Docling) ---
+docling[rapidocr]>=2.55.0 # specify ocr model. easyocr is also an option
+
+# --- Vector Database (Chroma) ---
+# Ensure chromadb >= 0.5.5 to fix the numpy 2 crash
+chromadb>=0.5.5
+langchain-chroma>=0.2.0
